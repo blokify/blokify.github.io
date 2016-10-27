@@ -114,7 +114,7 @@
    
    function parseJson() {
   //var url = "https://blokify-dev.herokuapp.com/globalfeed/?page="+pageNumber+"&callback=?";
-  var url = "http://app.blokify.com/globalfeed/?page="+pageNumber+"&callback=?";
+  var url = "https://app.blokify.com/globalfeed/?page="+pageNumber+"&callback=?";
   jQuery( ".modelLoader" ).show();
   jQuery.ajax({
       type: 'GET',
@@ -165,7 +165,7 @@
                /*end shared display code*/
 
               //var jQuerypic = jQuery( "<div class='modelPic'><a target='_blank' href='http://models.blokify.com/index-dev.html?model_id="+ modelID +"'><img class='thumbs' src="+ thumbnailURL + "></a><p>" + name + "<span class='modifiedDate'>Shared: " + sharedTime + "</span></p></div>");
-               var jQuerypic = jQuery( "<div class='modelPic'><a target='_blank' href='http://models.blokify.com/index.html?model_id="+ modelID +"'><img class='thumbs' src="+ thumbnailURL + "></a><p class='modelDescription'><span class='modelName'>" + name + "</span><span class='modifiedDate'>Shared: " + sharedTime + "</span></p></div>");
+               var jQuerypic = jQuery( "<div class='modelPic'><a target='_blank' href='https://models.blokify.com/index.html?model_id="+ modelID +"'><img class='thumbs' src="+ thumbnailURL + "></a><p class='modelDescription'><span class='modelName'>" + name + "</span><span class='modifiedDate'>Shared: " + sharedTime + "</span></p></div>");
                jQuerypic.hide();
                jQuerypic.insertBefore(jQuery(".modelLoader"));
               jQuerypic.delay(i*150).fadeIn();      
