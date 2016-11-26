@@ -50,10 +50,18 @@ body {
 .blokify-logo {
   width: 250px;
   padding-bottom: 25px;
+  float: left;
 }
 .apple-download {
   padding-top: 10px;
   width: 120px;
+}
+.links {
+  float: right;
+}
+.links a {
+  color: white;
+  text-decoration: none;
 }
 /*print section*/
 .print-section {
